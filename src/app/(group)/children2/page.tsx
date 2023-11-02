@@ -4,8 +4,8 @@ import Link from "next/link";
 const HomePage: NextPage = () => {
   return (
     <div>
-      <div>こんにちは</div>
-      <Link href="/count-up">link to count up page</Link>
+      <div>children2</div>
+      <Link href="/">link to home page</Link>
       <Link href="/children1">link to children1 page</Link>
     </div>
   );
