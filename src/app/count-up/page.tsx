@@ -9,12 +9,12 @@ const CountUpPage: NextPage = () => {
 
   return (
     <div>
-      <div>items</div>
       <SimpleButton onClick={() => setCount((prev) => prev + 1)}>
         click
       </SimpleButton>
       <div>{count}</div>
       <Link href="/">link to home page</Link>
+      <Link href="/get-data">link to get data page</Link>
     </div>
   );
 };
