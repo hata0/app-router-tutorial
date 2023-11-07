@@ -7,6 +7,7 @@ const HomePage: NextPage = () => {
       <div>こんにちは</div>
       <Link href="/count-up">link to count up page</Link>
       <Link href="/children1">link to children1 page</Link>
+      <Link href="/intercepting">intercepting</Link>
     </div>
   );
 };
