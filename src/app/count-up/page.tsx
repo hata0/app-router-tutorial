@@ -1,6 +1,6 @@
 "use client";
 import { NextPage } from "next";
-import { SimpleButton } from "../_components/ui/domain/SimpleButton";
+import { SimpleButton } from "../../components/ui/domain/SimpleButton";
 import { useState } from "react";
 import Link from "next/link";
 

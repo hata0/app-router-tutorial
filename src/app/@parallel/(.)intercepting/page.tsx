@@ -1,5 +1,5 @@
 "use client";
-import { SimpleButton } from "@/app/_components/ui/domain/SimpleButton";
+import { SimpleButton } from "@/components/ui/domain/SimpleButton";
 import { useRouter } from "next/navigation";
 
 const Intercepting = () => {

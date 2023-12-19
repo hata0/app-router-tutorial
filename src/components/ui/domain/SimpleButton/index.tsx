@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 
-import { twcx } from "../../../../_utils/twcx";
+import { twcx } from "../../../../utils/twcx";
 import { BaseButton, BaseButtonProps } from "../../base/BaseButton";
 
 export const SimpleButton = forwardRef<HTMLButtonElement, BaseButtonProps>(

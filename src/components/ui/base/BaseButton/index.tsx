@@ -1,6 +1,6 @@
 import { ComponentProps, forwardRef } from "react";
 
-import { twcx } from "../../../../_utils/twcx";
+import { twcx } from "../../../../utils/twcx";
 
 export type BaseButtonProps = Omit<ComponentProps<"button">, "ref">;
 
