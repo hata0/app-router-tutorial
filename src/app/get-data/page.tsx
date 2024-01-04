@@ -10,7 +10,7 @@ const GetDataPage: NextPage = async () => {
   const data: Data = await res.json();
 
   return (
-    <div className="inline-flex space-y-[16px] flex-col">
+    <div className="inline-flex flex-col space-y-[16px]">
       <div>{data.message}</div>
       <LinkButton href="/count-up">link to count up page</LinkButton>
     </div>

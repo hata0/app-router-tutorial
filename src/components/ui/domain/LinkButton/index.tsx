@@ -11,7 +11,7 @@ export const LinkButton = forwardRef<HTMLAnchorElement, Props>(
       <BaseLink
         ref={forwardRef}
         className={twcx(
-          "h-[40px] font-medium rounded-[6px] text-[14px] bg-zinc-900 text-blue-500 px-[16px] py-[8px] hover:bg-zinc-900/90",
+          "h-[40px] rounded-[6px] bg-zinc-900 px-[16px] py-[8px] text-[14px] font-medium text-blue-500 hover:bg-zinc-900/90",
           className,
         )}
         {...rest}

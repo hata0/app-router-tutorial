@@ -8,7 +8,7 @@ const CountUpPage: NextPage = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex space-y-[16px] flex-col">
+    <div className="flex flex-col space-y-[16px]">
       <SimpleButton onClick={() => setCount((prev) => prev + 1)}>
         click
       </SimpleButton>

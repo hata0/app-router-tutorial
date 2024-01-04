@@ -12,7 +12,7 @@ export const SimpleButton = forwardRef<HTMLButtonElement, BaseButtonProps>(
       <BaseButton
         ref={forwardRef}
         className={twcx(
-          "h-[32px] rounded-[4px] border-[1px] bg-white font-medium px-[16px] py-[8px]",
+          "h-[32px] rounded-[4px] border-[1px] bg-white px-[16px] py-[8px] font-medium",
           className,
         )}
         type={type}

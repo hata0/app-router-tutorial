@@ -13,7 +13,7 @@ export const BaseButton = forwardRef<HTMLButtonElement, BaseButtonProps>(
       <button
         ref={forwardRef}
         className={twcx(
-          "flex cursor-pointer items-center justify-center w-fit",
+          "flex w-fit cursor-pointer items-center justify-center",
           className,
         )}
         type={type}
