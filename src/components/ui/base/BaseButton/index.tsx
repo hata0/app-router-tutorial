@@ -7,14 +7,14 @@ export type BaseButtonProps = Omit<ComponentProps<"button">, "ref">;
 export const BaseButton = forwardRef<HTMLButtonElement, BaseButtonProps>(
   (
     { children, className, type = "button", ...rest },
-    forwardRef
+    forwardRef,
   ): JSX.Element => {
     return (
       <button
         ref={forwardRef}
         className={twcx(
-          "flex cursor-pointer items-center justify-center",
-          className
+          "flex cursor-pointer items-center justify-center w-fit",
+          className,
         )}
         type={type}
         {...rest}
@@ -22,7 +22,7 @@ export const BaseButton = forwardRef<HTMLButtonElement, BaseButtonProps>(
         {children}
       </button>
     );
-  }
+  },
 );
 
 BaseButton.displayName = "BaseButton";

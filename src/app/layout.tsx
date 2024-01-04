@@ -16,8 +16,10 @@ const RootLayout = ({ children, parallel }: Props) => {
   return (
     <html lang="ja">
       <body>
-        {children}
-        <div>{parallel}</div>
+        <div className="flex flex-col space-y-[16px]">
+          {children}
+          {parallel}
+        </div>
       </body>
     </html>
   );

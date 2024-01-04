@@ -6,7 +6,7 @@ const Intercepting = () => {
   const router = useRouter();
 
   return (
-    <div>
+    <div className="flex flex-col space-y-[16px]">
       <div className="text-red-500">intercepting</div>
       <SimpleButton
         className="text-blue-500"

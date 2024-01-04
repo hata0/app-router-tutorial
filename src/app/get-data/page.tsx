@@ -1,5 +1,5 @@
+import { LinkButton } from "@/components/ui/domain/LinkButton";
 import { NextPage } from "next";
-import Link from "next/link";
 
 type Data = {
   message: string;
@@ -10,9 +10,9 @@ const GetDataPage: NextPage = async () => {
   const data: Data = await res.json();
 
   return (
-    <div>
+    <div className="inline-flex space-y-[16px] flex-col">
       <div>{data.message}</div>
-      <Link href="/count-up">link to count up page</Link>
+      <LinkButton href="/count-up">link to count up page</LinkButton>
     </div>
   );
 };
