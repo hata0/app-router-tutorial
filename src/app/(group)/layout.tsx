@@ -1,12 +1,13 @@
+import { FeedbackForm } from "@/components/layouts/domain/FeedbackForm";
 import { ReactNode } from "react";
 
-const Children1Layout = ({ children }: { children: ReactNode }) => {
+const ChildrenLayout = ({ children }: { children: ReactNode }) => {
   return (
     <div>
-      <div>children layout</div>
       {children}
+      <FeedbackForm label="Layout Feedback" />
     </div>
   );
 };
 
-export default Children1Layout;
+export default ChildrenLayout;
