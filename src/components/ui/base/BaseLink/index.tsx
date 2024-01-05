@@ -11,7 +11,7 @@ export const BaseLink = forwardRef<HTMLAnchorElement, BaseLinkProps>(
       <NextLink
         ref={forwardRef}
         className={twcx(
-          "inline-flex cursor-pointer items-center justify-center",
+          "flex w-fit cursor-pointer items-center justify-center",
           className,
         )}
         {...rest}
