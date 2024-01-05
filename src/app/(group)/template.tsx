@@ -1,5 +1,5 @@
-import { FeedbackForm } from "@/components/layouts/domain/FeedbackForm";
 import { ReactNode } from "react";
+import { FeedbackForm } from "./_layouts/domain/FeedbackForm";
 
 const Template = ({ children }: { children: ReactNode }) => {
   return (
