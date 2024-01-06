@@ -3,10 +3,10 @@ import { LinkButton } from "@/components/ui/domain/LinkButton";
 const Children2Page = () => {
   return (
     <div className="flex flex-col space-y-[16px]">
-      <div>children2</div>
+      <div>Children2</div>
       <div className="flex space-x-[8px]">
-        <LinkButton href="/">link to home page</LinkButton>
-        <LinkButton href="/children1">link to children1 page</LinkButton>
+        <LinkButton href="/">Home Page</LinkButton>
+        <LinkButton href="/children1">Children1 Page</LinkButton>
       </div>
     </div>
   );

@@ -9,12 +9,12 @@ const CountUpPage = () => {
   return (
     <div className="flex flex-col space-y-[16px]">
       <SimpleButton onClick={() => setCount((prev) => prev + 1)}>
-        click
+        Click
       </SimpleButton>
       <div>{count}</div>
       <div className="flex space-x-[8px]">
-        <LinkButton href="/">link to home page</LinkButton>
-        <LinkButton href="/get-data">link to get data page</LinkButton>
+        <LinkButton href="/">Home Page</LinkButton>
+        <LinkButton href="/get-data">Get Data Page</LinkButton>
       </div>
     </div>
   );

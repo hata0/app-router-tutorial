@@ -23,7 +23,7 @@ const DynamicPage = ({ params, searchParams }: Props) => {
   return (
     <div>
       <div>{params.id}</div>
-      <LinkButton href="/">link to home page</LinkButton>
+      <LinkButton href="/">Home Page</LinkButton>
     </div>
   );
 };

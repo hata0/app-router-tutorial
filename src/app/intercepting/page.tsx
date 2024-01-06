@@ -1,5 +1,5 @@
 const InterceptingPage = () => {
-  return <div>intercepting</div>;
+  return <div>Intercepting</div>;
 };
 
 export default InterceptingPage;

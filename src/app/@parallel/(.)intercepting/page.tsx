@@ -7,7 +7,7 @@ const InterceptingPage = () => {
 
   return (
     <div className="flex flex-col space-y-[16px]">
-      <div className="text-red-500">intercepting</div>
+      <div className="text-red-500">Intercepting</div>
       <SimpleButton
         className="text-blue-500"
         onClick={() => {

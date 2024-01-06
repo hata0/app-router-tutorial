@@ -17,13 +17,13 @@ const HomePage = () => {
     <div className="flex flex-col space-y-[16px]">
       <div>こんにちは</div>
       <div className="flex space-x-[8px]">
-        <LinkButton href="/count-up">link to count up page</LinkButton>
-        <LinkButton href="/children1">link to children1 page</LinkButton>
-        <LinkButton href="/intercepting">intercepting</LinkButton>
-        <LinkButton href="/require-login">reqiure login</LinkButton>
+        <LinkButton href="/count-up">Count Up Page</LinkButton>
+        <LinkButton href="/children1">Children1 Page</LinkButton>
+        <LinkButton href="/intercepting">Intercepting Page</LinkButton>
+        <LinkButton href="/require-login">Reqiure Login Page</LinkButton>
       </div>
       <div className="flex space-x-[8px]">
-        <SimpleButton onClick={handleClick}>link to dynamic page</SimpleButton>
+        <SimpleButton onClick={handleClick}>Dynamic Page</SimpleButton>
         <input
           onChange={(e) => setText(e.target.value)}
           value={text}
