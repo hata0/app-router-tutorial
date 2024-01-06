@@ -12,10 +12,7 @@ const CountUpPage = () => {
         Click
       </SimpleButton>
       <div>{count}</div>
-      <div className="flex space-x-[8px]">
-        <LinkButton href="/">Home Page</LinkButton>
-        <LinkButton href="/get-data">Get Data Page</LinkButton>
-      </div>
+      <LinkButton href="/">Home Page</LinkButton>
     </div>
   );
 };

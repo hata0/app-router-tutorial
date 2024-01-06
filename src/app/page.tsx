@@ -24,6 +24,7 @@ const HomePage = () => {
       <div>こんにちは</div>
       <div className="flex space-x-[8px]">
         <LinkButton href="/count-up">Count Up Page</LinkButton>
+        <LinkButton href="/get-data">Get Data Page</LinkButton>
         <LinkButton href="/children1">Children1 Page</LinkButton>
         <LinkButton href="/intercepting">Intercepting Page</LinkButton>
         <LinkButton href="/require-login">Reqiure Login Page</LinkButton>

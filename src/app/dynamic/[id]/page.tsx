@@ -27,7 +27,7 @@ export const generateStaticParams = () => {
 
 const DynamicPage = ({ params, searchParams }: Props) => {
   return (
-    <div>
+    <div className="flex flex-col space-y-[16px]">
       <div>{params.id}</div>
       <LinkButton href="/">Home Page</LinkButton>
     </div>

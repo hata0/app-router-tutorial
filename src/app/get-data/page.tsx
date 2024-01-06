@@ -16,7 +16,7 @@ const GetDataPage = async () => {
   return (
     <div className="flex flex-col space-y-[16px]">
       <div>{data.message}</div>
-      <LinkButton href="/count-up">Count Up Page</LinkButton>
+      <LinkButton href="/">Home Page</LinkButton>
     </div>
   );
 };

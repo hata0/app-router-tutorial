@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const ChildrenLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <div>
+    <div className="flex flex-col space-y-[16px]">
       {children}
       <FeedbackForm label="Layout Feedback" />
     </div>
