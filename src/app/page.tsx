@@ -20,6 +20,7 @@ const HomePage = () => {
         <LinkButton href="/count-up">link to count up page</LinkButton>
         <LinkButton href="/children1">link to children1 page</LinkButton>
         <LinkButton href="/intercepting">intercepting</LinkButton>
+        <LinkButton href="/require-login">reqiure login</LinkButton>
       </div>
       <div className="flex space-x-[8px]">
         <SimpleButton onClick={handleClick}>link to dynamic page</SimpleButton>
