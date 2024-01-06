@@ -1,7 +1,6 @@
 import { LinkButton } from "@/components/ui/domain/LinkButton";
-import { NextPage } from "next";
 
-const HomePage: NextPage = () => {
+const Children2Page = () => {
   return (
     <div className="flex flex-col space-y-[16px]">
       <div>children2</div>
@@ -13,4 +12,4 @@ const HomePage: NextPage = () => {
   );
 };
 
-export default HomePage;
+export default Children2Page;

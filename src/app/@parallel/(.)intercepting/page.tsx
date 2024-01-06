@@ -2,7 +2,7 @@
 import { SimpleButton } from "@/components/ui/domain/SimpleButton";
 import { useRouter } from "next/navigation";
 
-const Intercepting = () => {
+const InterceptingPage = () => {
   const router = useRouter();
 
   return (
@@ -20,4 +20,4 @@ const Intercepting = () => {
   );
 };
 
-export default Intercepting;
+export default InterceptingPage;

@@ -1,7 +1,7 @@
 import NextLink from "next/link";
 import { ComponentProps, forwardRef } from "react";
 
-import { twcx } from "../../../../utils/twcx";
+import { cn } from "../../../../utils/cn";
 
 export type BaseLinkProps = Omit<ComponentProps<typeof NextLink>, "ref">;
 
@@ -10,7 +10,7 @@ export const BaseLink = forwardRef<HTMLAnchorElement, BaseLinkProps>(
     return (
       <NextLink
         ref={forwardRef}
-        className={twcx(
+        className={cn(
           "flex w-fit cursor-pointer items-center justify-center",
           className,
         )}

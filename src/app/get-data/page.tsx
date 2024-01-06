@@ -1,12 +1,11 @@
 import { LinkButton } from "@/components/ui/domain/LinkButton";
-import { NextPage } from "next";
 
 type Data = {
   message: string;
   error: string;
 };
 
-const GetDataPage: NextPage = async () => {
+const GetDataPage = async () => {
   const res = await fetch("http://localhost:3000/api/", { cache: "no-store" });
   const data: Data = await res.json();
 

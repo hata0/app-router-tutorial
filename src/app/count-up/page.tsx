@@ -1,10 +1,9 @@
 "use client";
-import { NextPage } from "next";
 import { SimpleButton } from "../../components/ui/domain/SimpleButton";
 import { useState } from "react";
 import { LinkButton } from "@/components/ui/domain/LinkButton";
 
-const CountUpPage: NextPage = () => {
+const CountUpPage = () => {
   const [count, setCount] = useState(0);
 
   return (

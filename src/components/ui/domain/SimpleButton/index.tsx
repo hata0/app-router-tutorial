@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 
-import { twcx } from "../../../../utils/twcx";
+import { cn } from "../../../../utils/cn";
 import { BaseButton, BaseButtonProps } from "../../base/BaseButton";
 
 export const SimpleButton = forwardRef<HTMLButtonElement, BaseButtonProps>(
@@ -11,7 +11,7 @@ export const SimpleButton = forwardRef<HTMLButtonElement, BaseButtonProps>(
     return (
       <BaseButton
         ref={forwardRef}
-        className={twcx(
+        className={cn(
           "h-[32px] rounded-[4px] border-[1px] bg-white px-[16px] py-[8px] font-medium",
           className,
         )}

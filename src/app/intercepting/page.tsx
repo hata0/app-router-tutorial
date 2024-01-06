@@ -1,5 +1,5 @@
-const Intercepting = () => {
+const InterceptingPage = () => {
   return <div>intercepting</div>;
 };
 
-export default Intercepting;
+export default InterceptingPage;

@@ -1,6 +1,6 @@
 import { ComponentProps, forwardRef } from "react";
 
-import { twcx } from "../../../../utils/twcx";
+import { cn } from "../../../../utils/cn";
 
 export type BaseButtonProps = Omit<ComponentProps<"button">, "ref">;
 
@@ -12,7 +12,7 @@ export const BaseButton = forwardRef<HTMLButtonElement, BaseButtonProps>(
     return (
       <button
         ref={forwardRef}
-        className={twcx(
+        className={cn(
           "flex w-fit cursor-pointer items-center justify-center",
           className,
         )}

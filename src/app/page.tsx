@@ -1,7 +1,6 @@
 import { LinkButton } from "@/components/ui/domain/LinkButton";
-import { NextPage } from "next";
 
-const HomePage: NextPage = () => {
+const HomePage = () => {
   return (
     <div className="flex flex-col space-y-[16px]">
       <div>こんにちは</div>

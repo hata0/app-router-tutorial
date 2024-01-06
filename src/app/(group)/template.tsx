@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { FeedbackForm } from "./_layouts/domain/FeedbackForm";
 
-const Template = ({ children }: { children: ReactNode }) => {
+const ChildrenTemplate = ({ children }: { children: ReactNode }) => {
   return (
     <>
       {children}
@@ -10,4 +10,4 @@ const Template = ({ children }: { children: ReactNode }) => {
   );
 };
 
-export default Template;
+export default ChildrenTemplate;
