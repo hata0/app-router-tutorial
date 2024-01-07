@@ -28,6 +28,7 @@ const HomePage = () => {
         <LinkButton href="/children1">Children1 Page</LinkButton>
         <LinkButton href="/intercepting">Intercepting Page</LinkButton>
         <LinkButton href="/require-login">Reqiure Login Page</LinkButton>
+        <LinkButton href="/form">Form Page</LinkButton>
       </div>
       <div className="flex space-x-[8px]">
         <input
